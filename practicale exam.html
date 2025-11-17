@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Registration</title>
+	</head>
+	<body>
+	<form>
+		<label>Employe Name</label>
+		<input type="text" name="name" palceholder="Enter the employe name"><br><br>
+		<label>Employe Email</label>
+		<input type="email" name="email" palceholder="Enter the employe email"><br><br>
+		<label>Employe Password</label>
+		<input type="password" name="password" palceholder="Enter the employe password"><br><br>
+		<label>Employe Mobile</label>
+		<input type="number" name="mobile" palceholder="Enter the employe mobile"><br><br>
+		<label>Date of Birth</label>
+		<input type="number" name="date" palceholder="Enter the employe date of birth"><br><br>
+		<button type="submit">submit</button>
+	</form>
+	
+	<h1> id="name" </h1>
+	<h1> id="email" </h1>
+	<h1> id="password" </h1>
+	<h1> id="mobile" </h1>
+	<h1> id="D.O.B" </h1>
+	<h1> id="submit" </h1>
+	
+	<script>
+		function ragister()
+		
+		var = document.name["ragister"]["name"].value;
+		var = document.email["ragister"]["email"].value;
+		var = document.password["ragister"]["password"].value;
+		var = document.mobile["ragister"]["mobile"].value;
+		var = document.D.O.B["ragister"]["D.O.B"].value;
+		
+		if (name == "")
+		{
+			alert("Please enter your name");
+			return false;
+		}
+		else if (email == "")
+		{
+			alert("Please enter your email id");
+			return false;
+		}
+		else if (password == "")
+		{
+			alert("Please enter your valide Password");
+			return false;
+		}
+		else if (mobile == "")
+		{
+			alert("Please enter your valide Pmobile number");
+			return false;
+		}
+		else if (D.O.B == "")
+		{
+			alert("Please enter your valide date of birth");
+			return false;
+		}
+		else if (password <= 8)
+		{
+			alert("Please enter Password maximum 8 charecter");
+			return false;
+		}
+		else if (mobile == 10)
+		{
+			alert("Please enter your mobile number minimum 10 number");
+			return false;
+		}
+		
+		
+		element.documentById["name"].innerHTML = +name;
+		element.documentById["email"].innerHTML = +email;
+		element.documentById["password"].innerHTML = +password;
+		element.documentById["mobile"].innerHTML = +mobile;
+		element.documentById["D.O.B"].innerHTML = +D.O.B;
+		element.documentById["submit"].innerHTML = +submit;
+		
+		
+	</script>
+	</body>
+</html>
+	
